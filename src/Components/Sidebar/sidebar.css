@@ -1,0 +1,62 @@
+.sidebar-fixed {
+  position: relative;
+  top: 0;
+  background: #fff;
+}
+
+.sidebar {
+  position: sticky;
+  top: 5%;
+  margin-top: 30px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.site-logo {
+  margin-bottom: 40px;
+}
+.sidenav-item {
+  list-style-type: none;
+}
+.sidenav-item:not(last-child) {
+  margin-bottom: 23px;
+}
+.sidenav-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav-icons {
+  margin-right: 15px;
+}
+.sidebar-btn {
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.users__profile {
+  position: sticky;
+  top: 85%;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.tripple-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15px;
+}
+.users__profile-dots {
+  background: #000;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}

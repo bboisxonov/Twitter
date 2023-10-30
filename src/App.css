@@ -1,11 +1,14 @@
 *,
 *::after,
-*::before{
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.container {
   max-width: 1380px;
   margin: 0 auto;
+}
+.wrapper {
+  display: flex;
 }

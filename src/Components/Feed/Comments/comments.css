@@ -1,0 +1,19 @@
+.comments {
+  display: flex;
+  align-items: center;
+  padding: 2.2%;
+}
+.comment-box {
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 20px;
+}
+.comments-info {
+  margin-left: 2.2%;
+  width: 80%;
+}
+.comments-title {
+  margin-bottom: 2%;
+}
+.tripple-dots {
+  margin-left: auto;
+}

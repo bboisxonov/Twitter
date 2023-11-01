@@ -1,0 +1,14 @@
+.postreactions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 78%;
+  margin: 0 auto;
+}
+.reaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45px;
+  cursor: pointer;
+}

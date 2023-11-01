@@ -2,13 +2,15 @@
   position: relative;
   top: 0;
   background: #fff;
+  width: 15%;
+  border-right: 1px solid #c4c4c4;
 }
 
 .sidebar {
   position: sticky;
   top: 5%;
   margin-top: 30px;
-  width: 225px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,11 +44,14 @@
 .users__profile {
   position: sticky;
   top: 85%;
+  margin-top: 39%;
+  margin-bottom: 30%;
   margin-left: -20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
+  font-size: 15px;
 }
 .tripple-dots {
   display: flex;
@@ -55,7 +60,7 @@
   width: 15px;
 }
 .users__profile-dots {
-  background: #000;
+  background: rgb(73, 73, 73);
   width: 4px;
   height: 4px;
   border-radius: 50%;

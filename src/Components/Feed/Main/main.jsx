@@ -7,8 +7,7 @@ import "./main.css"
 
 function Main() {
 
-    return <>
-        <h2>Main</h2>
+    return <div className='main-section'>
 
         <Hero></Hero>
 
@@ -16,6 +15,6 @@ function Main() {
 
         <Post></Post>
 
-    </>
+    </div>
 }
 export default Main

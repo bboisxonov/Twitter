@@ -5,8 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: sans-serif;
+}
 .container {
-  max-width: 1380px;
+  max-width: 1450px;
   margin: 0 auto;
 }
 .wrapper {

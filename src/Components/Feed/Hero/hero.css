@@ -1,0 +1,53 @@
+.hero {
+  width: 100%;
+}
+.hero-top {
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.hero-bottom {
+  border-bottom: 1px solid #c4c4c4;
+  padding: 5px 20px;
+}
+.hero-title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.user-typebox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.comment-input {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  margin-left: 20px;
+  color: var(--Gray-3, #828282);
+  font-size: 22px;
+  font-weight: 500;
+}
+.attaching-elements {
+  margin-left: 68px;
+}
+.attaching-elements-img {
+  width: 27px;
+  height: 27px;
+}
+.attaching-elements-img:not(last-child) {
+  margin-right: 20px;
+}
+.hero-tweet-btn {
+  opacity: 0.4;
+  width: 110px !important;
+  height: 40px !important;
+  font-size: 17px !important;
+  display: inline-block;
+  cursor: auto !important;
+  margin-left: 87%;
+}

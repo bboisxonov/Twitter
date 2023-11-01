@@ -1,0 +1,29 @@
+.post-container {
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.post {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding: 20px;
+}
+.post-info {
+  display: flex;
+  justify-content: space-between;
+  width: 40.8%;
+}
+.post-text {
+  margin-left: 2.2%;
+}
+.post-image-box {
+  margin-left: 11.3%;
+  padding-bottom: 20px;
+}
+.post-img {
+  width: 90%;
+}
+.post-caption {
+  line-height: 1.3;
+}

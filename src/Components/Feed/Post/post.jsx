@@ -22,7 +22,7 @@ function Post() {
         <div className="post-image-box">
             <img className='post-img' src={require('../../../images/user-post.png')} alt="" />
         </div>
-            <PostReactions comments={"10"} retweet={5} likes={8}></PostReactions>
+            <PostReactions active={false} comments={10} retweet={5} likes={8}></PostReactions>
     </div>
 }
 export default Post

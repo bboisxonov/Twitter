@@ -38,7 +38,6 @@
   margin-right: 15px;
 }
 .sidebar-btn {
-  margin-left: -20px;
   margin-top: 20px;
 }
 .users__profile {
@@ -46,7 +45,7 @@
   top: 85%;
   margin-top: 39%;
   margin-bottom: 30%;
-  margin-left: -20px;
+  padding-right: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;

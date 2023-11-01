@@ -1,9 +1,19 @@
 import React from 'react'
 import "./postreactions.css"
 
-export default function PostReactions( {comments,  retweet,  likes} ){
+export default function PostReactions( {active, comments,  retweet,  likes} ){
+
+    function addCount(evt){
+        if(evt.target.matches(".reaction-sign")){
+            let counter = Number(evt.target.nextSibling.textContent)
+            counter++
+
+            evt.target.nextSibling.textContent = counter
+        }
+    }
+
     return <div className="postreactions">
-        <span className='reaction'>
+        <span className='reaction' active={active} onClick={(evt) => {addCount(evt)}}>
             <img className='reaction-sign' src={require('../../images/comment.png')} alt="" />
             <p className='total-reactions'>{comments}</p>
         </span>

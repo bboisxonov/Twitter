@@ -18,6 +18,7 @@
 }
 .site-logo {
   margin-bottom: 40px;
+  display: block;
 }
 .sidenav-item {
   list-style-type: none;

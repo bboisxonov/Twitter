@@ -7,8 +7,9 @@ function Sidebar(){
     return (
         <div className='sidebar-fixed'>
             <div className='sidebar'>
-                <img className='site-logo' src={require('../../images/site-logo.png')} alt="site logo (twitter)" />
-                
+                <a href="index.html">
+                    <img className='site-logo' src={require('../../images/site-logo.png')} alt="site logo (twitter)" />
+                </a>                
                 <ul className="sidenav">
                     <li className="sidenav-item">
                         <a className="sidenav-link" href="#">

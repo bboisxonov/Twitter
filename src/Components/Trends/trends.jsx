@@ -9,7 +9,6 @@ import "./trends.css"
 function Trends(){
     return (
     <section className='trends'>
-        <h1>Trends</h1>
 
         <Search></Search>
 

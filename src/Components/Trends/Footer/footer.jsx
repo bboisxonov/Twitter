@@ -5,7 +5,10 @@ import "./footer.css"
 function Footer() {
 
     return <>
-        <h2>Footer</h2>
+        <p className='footer-text'>Terms of Service  .  Privacy Policy  .  Cookie Policy <br /> Imprint
+Ads Info
+More ···
+© 2021 Twitter, Inc.</p>
 
     </>
 }

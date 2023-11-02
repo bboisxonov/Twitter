@@ -67,8 +67,8 @@ function Sidebar(){
                 <img src={require('../../images/users__profile-img.png')} alt="" />
 
                 <div className="username">
-                    <h4>Bobur</h4>
-                    <p>@bobur_mavlonov</p>
+                    <h4 className='profile-owner'>Bobur</h4>
+                    <p className='profile-owner'>@bobur_mavlonov</p>
                 </div>
                 <div className='tripple-dots'>
                     <span className='users__profile-dots'></span>
